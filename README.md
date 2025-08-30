@@ -1,9 +1,9 @@
-[![NPM](https://nodei.co/npm/callapi.png)](https://www.npmjs.com/package/callapi)
+[![NPM](https://nodei.co/npm/callfetch.png)](https://www.npmjs.com/package/callfetch)
 
-[![Open Collective](https://img.shields.io/opencollective/all/callapi?logo=open-collective)](https://opencollective.com/callapi)
+
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/ankitkrks1?label=GitHub%20Sponsors&logo=github)](https://github.com/sponsors/ankitkrks1)
 
-# callapi
+# callfetch
 
 Simple CLI to call APIs using fetch — interactively choose method, headers and body or pass a URL directly.
 
@@ -11,28 +11,28 @@ Author: Ankit K Kashyap
 
 ## What is this all about?
 
-`callapi` is a small Node.js command-line tool for quickly calling HTTP APIs. It's useful for testing endpoints, debugging webhooks, or making one-off requests without writing code. It supports interactive prompts for method, content-type and body, and accepts a URL argument for quick requests.
+`callfetch` is a small Node.js command-line tool for quickly calling HTTP APIs. It's useful for testing endpoints, debugging webhooks, or making one-off requests without writing code. It supports interactive prompts for method, content-type and body, and accepts a URL argument for quick requests.
 
 ## Installation
 
 Using npx (no install required):
 
 ```bash
-npx callapi https://example.com/api
+npx callfetch https://example.com/api
 ```
 
 Install globally with npm:
 
 ```bash
-npm i -g callapi
+npm i -g callfetch
 # then run
-callapi https://example.com/api
+callfetch https://example.com/api
 ```
 
 Or add to your project:
 
 ```bash
-npm i callapi
+npm i callfetch
 # require/import and use if needed (the package is a CLI entrypoint)
 ```
 
@@ -41,13 +41,14 @@ npm i callapi
 - Quick call by passing URL as first argument:
 
 ```bash
-npx callapi https://httpbin.org/get
+npx callfetch https://httpbin.org/get
 ```
 
 - Interactive mode (no URL provided):
 
 ```bash
-npx callapi
+#npx callapi
+npx callfetch
 # You'll be prompted for URL, method, content-type and body (for POST/PUT/PATCH)
 ```
 
@@ -68,7 +69,7 @@ node cli.js https://example.com
 GET request:
 
 ```bash
-npx callapi https://httpbin.org/get
+npx callfetch https://httpbin.org/get
 ```
 
 POST JSON (interactive):
