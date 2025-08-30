@@ -6,8 +6,29 @@
   "bin": {
     "callapi": "cli.js"
   },
+  "scripts": {
+    "start": "node cli.js"
+  },
   "author": "Ankit K Kashyap",
   "license": "MIT",
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "api",
+    "http",
+    "fetch",
+    "callapi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitkrks1/callapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ankitkrks1/callapi/issues"
+  },
+  "homepage": "https://github.com/ankitkrks1/callapi#readme",
   "dependencies": {
     "inquirer": "^9.0.0",
     "node-fetch": "^3.3.2",
