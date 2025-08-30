@@ -1,0 +1,17 @@
+{
+  "name": "callapi",
+  "version": "1.0.0",
+  "description": "Simple CLI to call APIs using fetch",
+  "main": "cli.js",
+  "bin": {
+    "callapi": "cli.js"
+  },
+  "author": "Ankit K Kashyap",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.0.0",
+    "node-fetch": "^3.3.2",
+    "qs": "^6.11.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,49 @@
+# Node.js / JavaScript common ignores
+# See https://github.com/github/gitignore/blob/main/Node.gitignore for reference
+
+# dependencies
+node_modules/
+
+# debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# production
+dist/
+build/
+
+# env files
+.env
+.env.*
+
+# locks (optional to keep in repo, but often not)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# testing
+coverage/
+.nyc_output/
+
+# editor directories and system files
+.vscode/
+.idea/
+.DS_Store
+
+# logs
+*.log
+
+# runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# cache
+.cache/
+/.sass-cache
+
+# misc
+*.tgz
+.eslintcache
