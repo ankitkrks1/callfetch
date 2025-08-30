@@ -123,10 +123,7 @@ MIT
 
 If you like this project and want to support maintenance and development, you can:
 
-[![Open Collective](https://img.shields.io/opencollective/all/callapi?logo=open-collective)](https://opencollective.com/callapi)
+Buy me a Dosha :
 
-Sponsor me on GitHub:
-
+[![Open Collective](https://img.shields.io/opencollective/all/sharemydisk?logo=open-collective)](https://opencollective.com/sharemydisk)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/ankitkrks1?label=GitHub%20Sponsors&logo=github)](https://github.com/sponsors/ankitkrks1)
-
-Thank you — every contribution helps!
